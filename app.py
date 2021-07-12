@@ -10,10 +10,15 @@ import random
 import threading
 import time
 
-import pymongo
 from flask import *
 from json import load
 from flask_sqlalchemy import SQLAlchemy
+
+# //////////////////////////////////////////////////////////////////////////// #
+
+# Database config
+
+# //////////////////////////////////////////////////////////////////////////// #
 
 # the config file structure
 """
